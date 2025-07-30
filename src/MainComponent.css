@@ -1,0 +1,747 @@
+.info-box {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.name-box {
+    flex: 8;
+}
+
+.name-box h1 {
+    font-size: 28px;
+}
+
+.name-box p {
+    color: #979797;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.description {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.description img {
+    width: 20px;
+    height: 20px;
+    background-color: #F4F4F4;
+    padding: 12px;
+    border-radius: 100%;
+    box-sizing: content-box;
+}
+
+.slides-scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    touch-action: pan-x;
+}
+
+.slides-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.slide-card {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 45vw;
+    max-width: 200px;
+}
+
+.slide-image {
+    width: 100%;
+    height: 140px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.slide-image h3 {
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+}
+
+.slides-scroll::before,
+.slides-scroll::after {
+    content: "";
+    flex: 0 0 10px;
+}
+
+.section-2 {
+    margin: 20px auto;
+}
+
+.section-2-button {
+    margin: 0 auto;
+    width: 100%;
+    padding: 3px;
+    background-color: #EEEEEF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.section-2-button a {
+    display: flex;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #EEEEEF;
+    text-align: center;
+    width: 70%;
+    height: 30px;
+}
+
+/* .section-2-button .service-button:hover {
+    background-color: white;
+}
+
+.section-2-button .qr-button:hover {
+    background-color: white;
+} */
+
+.service-button,
+.qr-button {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.service-button.active,
+.qr-button.active {
+    background-color: #ffffff;
+    color: white;
+}
+
+.section-2-button a h1 {
+    font-size: 14px;
+    color: rgb(40, 40, 40);
+    font-weight: 500;
+    margin: auto;
+}
+
+.section-2-heading {
+    margin: 20px auto;
+    font-size: 17px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    background-color: #EEEEEF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto 10px auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.search-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.search-button input {
+    flex: 1;
+    background-color: #EEEEEF;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.qr-kod-objects .menu-types-objects {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.menu-types-objects::-webkit-scrollbar {
+    display: none;
+}
+
+.qr-kod-objects .menu-types-objects .general-card {
+    flex: 0 0 150px;
+    scroll-snap-align: start;
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.qr-kod-objects .menu-types-objects .general-card:hover {
+    border: 5px solid #0081FB;
+    background-color: #0081FB;
+    color: white;
+}
+
+.qr-kod-objects .menu-types-objects .general-card h3:hover {
+    color: white;
+}
+
+.menu-types-objects .general-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.menu-types-objects .general-card .text {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-types-objects .general-card .text h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #2f2f2f;
+    transition: color 0.5s ease;
+}
+
+.meal-types-buttons {
+    padding: 10px 0;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    scroll-padding-left: 10px;
+}
+
+.meal-types-buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 10px 20px;
+    background-color: #EEEEEF;
+    color: #2F2F2F;
+    text-decoration: none;
+    border-radius: 30px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
+.meal-types-buttons a p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.meal-types-buttons a:hover {
+    background-color: #2F2F2F;
+    color: white;
+}
+
+.qr-kod-objects .menu-meals-objects .general-card {
+    background-color: #F5F4F2;
+    height: auto;
+    border-radius: 15px;
+    border: 5px solid #F5F4F2;
+}
+
+/* .style-flex-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+} */
+
+.style-flex-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+
+.qr-kod-objects .menu-meals-objects .general-card img {
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+.qr-kod-objects .menu-meals-objects .general-card .text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.qr-kod-objects .menu-meals-objects .general-card .text h2 {
+    font-size: 16px;
+    padding: 5px 0;
+    font-weight: 500;
+}
+
+.qr-kod-objects .menu-meals-objects .general-card .text h3 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.qr-kod-objects .menu-meals-objects .general-card .text p {
+    padding: 1px 0;
+    font-size: 12.5px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.qr-kod-objects .menu-meals-objects .general-card .add-button {
+    width: auto;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.qr-kod-objects .menu-meals-objects .general-card .add-button img {
+    margin: auto;
+    width: 15px;
+    height: 15px;
+}
+
+
+.services-objects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 10px;
+}
+
+.general-card {
+    padding: 1px;
+    background-color: #EEEEEF;
+    border: 5px solid #EEEEEF;
+    border-radius: 5px;
+}
+
+.general-card img {
+    width: 100%;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+.general-card h3 {
+    font-size: 14.5px;
+    font-weight: 700;
+}
+
+.general-card p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.last-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #EEEEEF;
+    border: 5px solid #EEEEEF;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.last-card .arrow-img {
+    margin: auto;
+    width: 17px;
+    height: 17px;
+    background-color: #D9D9D9;
+    box-sizing: content-box;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.last-card .service-text {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-box a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EEEEEF;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-box a img {
+    width: 18px;
+    height: 18px;
+}
+
+/* Телефоны: от 320px до 480px */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .name-box h1 {
+        font-size: 25px;
+    }
+
+    .slide-card {
+        flex: 0 0 auto;
+        width: 43vw;
+    }
+
+    .section-2-heading h2 {
+        font-size: 19px;
+    }
+
+
+
+    .qr-kod-objects .menu-types-objects .general-card img {
+        height: 35vw;
+    }
+
+    @media (min-width: 350px) {
+
+        .slide-card {
+            width: 40vw;
+        }
+
+        .slide-image {
+            height: 145px;
+        }
+
+        .qr-kod-objects .menu-types-objects .general-card img {
+            height: 33vw;
+        }
+    }
+
+    @media (min-width: 401px) {
+
+        .search-button-box {
+            width: 350px;
+        }
+
+        .slide-card {
+            width: 36vw;
+        }
+
+        .slide-image {
+            height: 150px;
+        }
+
+        .qr-kod-objects .menu-types-objects .general-card img {
+            height: 26vw;
+        }
+    }
+
+    @media (min-width: 440px) {
+        .slide-card {
+            width: 30vw;
+        }
+
+        .slide-image {
+            height: 130px;
+        }
+    }
+
+    .general-card h3 {
+        font-size: 13.5px;
+        font-weight: 700;
+    }
+
+    .service-text {
+        padding-top: 5px;
+    }
+
+    .search-button input {
+        font-size: 18px;
+    }
+
+    .search-button img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .style-flex-menu {
+        justify-content: space-evenly;
+    }
+
+    .qr-kod-objects .menu-meals-objects .general-card {
+        background-color: #F5F4F2;
+        border-radius: 15px;
+    }
+
+    .qr-kod-objects .menu-meals-objects .general-card img {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .qr-kod-objects .menu-meals-objects .general-card .text h3 {
+        font-size: 12px;
+    }
+
+    .contact-box a {
+        padding: 15px;
+    }
+
+    .contact-box a p {
+        font-size: 14px;
+    }
+
+    .contact-box a img {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .section-2-button {
+        width: 300px;
+        margin: 0;
+    }
+
+    .search-button-box {
+        width: 350px;
+    }
+
+    .slide-card {
+        width: 32vw;
+    }
+
+    .slide-image {
+        height: 155px;
+    }
+
+    .qr-kod-objects .menu-types-objects .general-card img {
+        height: 23vw;
+    }
+
+    @media (min-width: 580px) {
+        .slide-card {
+            width: 23vw;
+        }
+
+        .slide-image {
+            height: 135px;
+        }
+
+        .qr-kod-objects .menu-types-objects .general-card img {
+            height: 19vw;
+        }
+    }
+
+    @media (min-width: 720px) {
+        .slide-card {
+            width: 18vw;
+            flex-shrink: 0;
+            scroll-snap-align: start;
+        }
+
+        .slide-image {
+            height: 135px;
+        }
+
+        .qr-kod-objects .menu-types-objects .general-card img {
+            height: 17vw;
+        }
+    }
+
+    .search-button-box {
+        width: 350px;
+    }
+
+    .services-objects .general-card .service-text h3 {
+        font-size: 14px;
+    }
+
+    .services-objects .general-card .service-text p {
+        font-size: 13.5px;
+    }
+
+    .section-2-heading h2 {
+        font-size: 21px;
+    }
+
+    .contact-box p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+    .section-2-button {
+        width: 300px;
+        margin: 0;
+    }
+
+    .search-button-box {
+        width: 305px;
+    }
+
+    .slide-card {
+        width: 20vw;
+    }
+
+    .slide-image {
+        height: 160px;
+    }
+
+    /* .services-objects {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        column-gap: 15px;
+    }
+
+    .general-card {
+        width: 16vw;
+    } */
+
+    .last-card .service-text h3 {
+        font-size: 14px;
+    }
+
+    .qr-kod-objects .menu-types-objects .general-card img {
+        height: 15vw;
+    }
+
+    .contact-box a {
+        width: 330px;
+        padding: 17px;
+    }
+
+    .contact-box a p {
+        font-size: 14.5px;
+    }
+
+    @media (min-width: 860px) {
+
+        .slide-card {
+            width: 20vw;
+        }
+
+        .slide-image {
+            height: 130px;
+        }
+
+        .qr-kod-objects .menu-types-objects .general-card img {
+            height: 13vw;
+        }
+    }
+
+    .Main-services .services-objects .general-card .service-text p {
+        font-size: 14px;
+    }
+
+    .style-flex-menu {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1280px) {
+    .section-2-button {
+        width: 300px;
+        margin: 0;
+    }
+
+    .search-button-box {
+        width: 305px;
+    }
+
+    .slide-image {
+        height: 25vh;
+    }
+
+    .contact-box a {
+        width: 330px;
+        padding: 17px;
+    }
+
+    .contact-box a p {
+        font-size: 14.5px;
+    }
+
+    @media (min-width: 1140px) {
+        .services-objects {
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+        }
+    }
+
+    .qr-kod-objects .menu-types-objects .general-card {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 100%;
+        max-height: none;
+    }
+
+
+    .qr-kod-objects .menu-types-objects .general-card img {
+        height: 135px;
+    }
+
+    .Main-services .services-objects .general-card .service-text h3 {
+        font-size: 14.5px;
+    }
+
+    .Main-services .services-objects .general-card .service-text p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width:1920px) {
+    .section-2-button {
+        width: 340px;
+        margin: 0;
+    }
+
+    .services-objects {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 10px;
+    }
+
+    .qr-kod-objects .menu-types-objects .general-card {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 100%;
+        max-height: none;
+    }
+
+    .search-button-box {
+        width: 320px;
+    }
+
+    .qr-kod-objects .menu-types-objects .general-card img {
+        height: 130px;
+    }
+
+    .qr-kod-objects .style-flex-menu .general-card {
+        width: 200px;
+    }
+
+    .contact-box a {
+        width: 340px;
+        padding: 17px;
+    }
+
+    .contact-box a p {
+        font-size: 15px;
+    }
+}
