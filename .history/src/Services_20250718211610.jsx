@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionHeading from './SectionHeading';
-import data from './data.js';
+import data from './data';
 
 export default function Services() {
   return (
@@ -37,8 +37,8 @@ export default function Services() {
 
       <SectionHeading>Связаться с отелем</SectionHeading>
       <div className='contact-box'>
-        <a href="#"><p>Сообщить о проблеме</p><img src="images/arrow.png" /></a>
-        <a href="#"><p>Техническая помощь в номере</p><img src="images/arrow.png" /></a>
+        <a href="#"><p>Сообщить о проблеме</p><img src="/images/arrow.png" /></a>
+        <a href="#"><p>Техническая помощь в номере</p><img src="/images/arrow.png" /></a>
       </div>
     </>
   );

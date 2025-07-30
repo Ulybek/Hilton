@@ -2,42 +2,42 @@ const data = {
     services: [
         {
             id: 1,
-            img: 'images/room_1.webp',
+            img: '/images/room_1.webp',
             text: 'Специальные предложения'
         },
         {
             id: 2,
-            img: 'images/room_2.webp',
+            img: '/images/room_2.webp',
             text: 'Бутылка шампанского в подарок'
         },
         {
             id: 3,
-            img: 'images/room_3.webp',
+            img: '/images/room_3.webp',
             text: 'Свадебная фотосессия для молодожен'
         },
         {
             id: 4,
-            img: 'images/room_4.webp',
+            img: '/images/room_4.webp',
             text: 'Свадебная фотосессия для молодожен'
         },
         {
             id: 5,
-            img: 'images/room_4.webp',
+            img: '/images/room_4.webp',
             text: 'Свадебная фотосессия для молодожен'
         },
         {
             id: 6,
-            img: 'images/room_4.webp',
+            img: '/images/room_4.webp',
             text: 'Свадебная фотосессия для молодожен'
         },
         {
             id: 7,
-            img: 'images/room_4.webp',
+            img: '/images/room_4.webp',
             text: 'Свадебная фотосессия для молодожен'
         },
         {
             id: 8,
-            img: 'images/room_4.webp',
+            img: '/images/room_4.webp',
             text: 'Свадебная фотосессия для молодожен'
         }
     ],
@@ -45,37 +45,37 @@ const data = {
     main_services: [
         {
             id: 1,
-            img: 'images/service_img_3.webp',
+            img: '/images/service_img_3.webp',
             name: 'Удобство в номере',
             time: 'круглосуточно'
         },
         {
             id: 2,
-            img: 'images/service_img_3.webp',
+            img: '/images/service_img_3.webp',
             name: 'Спальные места в номер',
             time: 'круглосуточно'
         },
         {
             id: 3,
-            img: 'images/service_img_3.webp',
+            img: '/images/service_img_3.webp',
             name: 'Уборка номера',
             time: 'круглосуточно'
         },
         {
             id: 4,
-            img: 'images/service_img_3.webp',
+            img: '/images/service_img_3.webp',
             name: 'Прачечная',
             time: 'круглосуточно'
         },
         {
             id: 5,
-            img: 'images/service_img_3.webp',
+            img: '/images/service_img_3.webp',
             name: 'Мини-бар',
             time: 'круглосуточно'
         },
         {
             id: 6,
-            img: 'images/service_img_3.webp',
+            img: '/images/service_img_3.webp',
             name: 'Мини-бар',
             time: 'круглосуточно'
         }
@@ -84,37 +84,37 @@ const data = {
     add_services: [
         {
             id: 1,
-            img: 'images/add_service_img_1.webp',
+            img: '/images/add_service_img_1.webp',
             name: 'Багажная комната',
             time: 'круглосуточно'
         },
         {
             id: 2,
-            img: 'images/add_service_img_2.webp',
+            img: '/images/add_service_img_2.webp',
             name: 'Заказать трансфер',
             time: 'круглосуточно'
         },
         {
             id: 3,
-            img: 'images/add_service_img_2.webp',
+            img: '/images/add_service_img_2.webp',
             name: 'Заказать трансфер',
             time: 'круглосуточно'
         },
         {
             id: 4,
-            img: 'images/add_service_img_2.webp',
+            img: '/images/add_service_img_2.webp',
             name: 'Заказать трансфер',
             time: 'круглосуточно'
         },
         {
             id: 5,
-            img: 'images/add_service_img_2.webp',
+            img: '/images/add_service_img_2.webp',
             name: 'Заказать трансфер',
             time: 'круглосуточно'
         },
         {
             id: 6,
-            img: 'images/add_service_img_2.webp',
+            img: '/images/add_service_img_2.webp',
             name: 'Заказать трансфер',
             time: 'круглосуточно'
         }
@@ -123,22 +123,22 @@ const data = {
     menu_types: [
         {
             id: '1',
-            img: 'images/main_meal_img.webp',
+            img: '/images/main_meal_img.webp',
             name: 'Основное меню'
         },
         {
             id: '2',
-            img: 'images/bar_meal_img.webp',
+            img: '/images/bar_meal_img.webp',
             name: 'Барное меню'
         },
         {
             id: '3',
-            img: 'images/kid_meal_img.webp',
+            img: '/images/kid_meal_img.webp',
             name: 'Детское меню'
         },
         {
             id: '4',
-            img: 'images/kid_meal_img.webp',
+            img: '/images/kid_meal_img.webp',
             name: 'Детское меню'
         }
     ],
@@ -146,42 +146,42 @@ const data = {
     menu_breakfastmeal: [
         {
             id: '1',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '2',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '3',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '4',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '5',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '6',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
@@ -191,42 +191,42 @@ const data = {
     menu_lunchmeal: [
         {
             id: '1',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '2',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '3',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '4',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '5',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '6',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
@@ -236,42 +236,42 @@ const data = {
     menu_hotmeal: [
         {
             id: '1',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '2',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '3',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '4',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '5',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '6',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'

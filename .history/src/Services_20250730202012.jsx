@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionHeading from './SectionHeading';
-import data from './data.js';
+import data from './data';
 
 export default function Services() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionHeading from './SectionHeading';
-import data from './data.js';
+import data from './data';
 
 export default function Services() {
     return (
@@ -8,7 +8,7 @@ export default function Services() {
             <SectionHeading>Меню ресторана</SectionHeading>
             <div className='search-button-box'>
                 <div className='search-button'>
-                    <img src="images/search.png" alt="" />
+                    <img src="/images/search.png" alt="" />
                     <input type="text" placeholder='Поиск' />
                 </div>
             </div>
@@ -49,7 +49,7 @@ export default function Services() {
                                 <p>{item.weight}</p>
                             </div>
                             <div className='add-button'>
-                                <img src="images/plus-sign.png" alt="" />
+                                <img src="/images/plus-sign.png" alt="" />
                             </div>
                         </div>
                     ))}
@@ -66,7 +66,7 @@ export default function Services() {
                                 <p>{item.weight}</p>
                             </div>
                             <div className='add-button'>
-                                <img src="images/plus-sign.png" alt="" />
+                                <img src="/images/plus-sign.png" alt="" />
                             </div>
                         </div>
                     ))}
@@ -82,7 +82,7 @@ export default function Services() {
                                 <p>{item.weight}</p>
                             </div>
                             <div className='add-button'>
-                                <img src="images/plus-sign.png" alt="" />
+                                <img src="/images/plus-sign.png" alt="" />
                             </div>
                         </div>
                     ))}

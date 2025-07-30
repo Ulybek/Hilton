@@ -32,21 +32,21 @@ export default function Header() {
                 <div className='navbar-1'>
                     <div className='button-box'>
                         <a href="#">
-                            <img src="images/thumbs_up.png" alt="image" />
+                            <img src="/images/thumbs_up.png" alt="image" />
                             <p className='button'>Оставить отзыв</p>
                         </a>
                     </div>
                 </div>
                 <div className='navbar-2'>
-                    <a href="#" className='logo-globe'><img src="images/globe.png" alt="" /></a>
-                    <a href="#" className='logo-person'><img src="images/person.png" alt="" /></a>
+                    <a href="#" className='logo-globe'><img src="/images/globe.png" alt="" /></a>
+                    <a href="#" className='logo-person'><img src="/images/person.png" alt="" /></a>
                 </div>
             </div>
             <div className='menu-2'>
                 <div className='logo-flags'>
-                    <a href="#" className='logo-russia'><img src="images/russia.png" alt="" />6.4</a>
-                    <a href="#" className='logo-usa'><img src="images/usa.png" alt="" />516</a>
-                    <a href="#" className='logo-euro'><img src="images/euro.png" alt="" />604</a>
+                    <a href="#" className='logo-russia'><img src="/images/russia.png" alt="" />6.4</a>
+                    <a href="#" className='logo-usa'><img src="/images/usa.png" alt="" />516</a>
+                    <a href="#" className='logo-euro'><img src="/images/euro.png" alt="" />604</a>
                 </div>
                 <div className='weather'>
                     {/* https://www.weatherapi.com/my/ - Получение ключа API только после регистрации */}

@@ -2,7 +2,6 @@
   "name": "hilton-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ulybek.github.io/Hilton",
   "type": "module",
   "scripts": {
     "dev": "vite",

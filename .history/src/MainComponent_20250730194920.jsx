@@ -15,7 +15,7 @@ export default function MainComponent() {
             <p>Астана, Кабанбай батыр проспект 15</p>
           </div>
           <a href="#" className="description">
-            <img src="images/info.png" alt="" />
+            <img src="/images/info.png" alt="" />
           </a>
         </div>
 

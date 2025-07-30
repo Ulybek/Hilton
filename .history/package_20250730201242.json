@@ -2,13 +2,11 @@
   "name": "hilton-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ulybek.github.io/Hilton",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -167,21 +167,21 @@ const data = {
         },
         {
             id: '4',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '5',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '6',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
@@ -191,42 +191,42 @@ const data = {
     menu_lunchmeal: [
         {
             id: '1',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '2',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '3',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '4',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '5',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '6',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
@@ -236,42 +236,42 @@ const data = {
     menu_hotmeal: [
         {
             id: '1',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '2',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '3',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '4',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '5',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
         },
         {
             id: '6',
-            img: 'images/menu_meal_img.png',
+            img: '/images/menu_meal_img.png',
             price: '1900 ₸',
             name: 'Скрембл с томатам',
             weight: '350 г'
