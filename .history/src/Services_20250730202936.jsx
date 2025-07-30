@@ -38,7 +38,7 @@ export default function Services() {
       <SectionHeading>Связаться с отелем</SectionHeading>
       <div className='contact-box'>
         <a href="#"><p>Сообщить о проблеме</p><img src="Hilton/images/arrow.png" /></a>
-        <a href="#"><p>Техническая помощь в номере</p><img src="Hilton/images/arrow.png" /></a>
+        <a href="#"><p>Техническая помощь в номере</p><img src="images/arrow.png" /></a>
       </div>
     </>
   );
