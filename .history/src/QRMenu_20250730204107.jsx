@@ -66,7 +66,7 @@ export default function Services() {
                                 <p>{item.weight}</p>
                             </div>
                             <div className='add-button'>
-                                <img src={`${base}images/plus-sign.png`} alt="" />
+                                <img src="Hilton/images/plus-sign.png" alt="" />
                             </div>
                         </div>
                     ))}
@@ -82,7 +82,7 @@ export default function Services() {
                                 <p>{item.weight}</p>
                             </div>
                             <div className='add-button'>
-                                <img src={`${base}images/plus-sign.png`} alt="" />
+                                <img src="`${base}images/plus-sign.png" alt="" />
                             </div>
                         </div>
                     ))}
