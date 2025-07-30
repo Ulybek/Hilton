@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionHeading from './SectionHeading';
 import data from './data.js';
+const base = import.meta.env.BASE_URL;
 
 export default function Services() {
   return (
@@ -37,14 +38,8 @@ export default function Services() {
 
       <SectionHeading>Связаться с отелем</SectionHeading>
       <div className='contact-box'>
-        <a href="#">
-          <p>Сообщить о проблеме</p>
-          <img src={`${import.meta.env.BASE_URL}images/arrow.png`} alt="" />
-        </a>
-        <a href="#">
-          <p>Техническая помощь в номере</p>
-          <img src={`${import.meta.env.BASE_URL}images/arrow.png`} alt="" />
-        </a>
+        <a href="#"><p>Сообщить о проблеме</p><img src={`${base}images/arrow.png'`} /></a>
+        <a href="#"><p>Техническая помощь в номере</p><img src="Hilton/images/arrow.png" /></a>
       </div>
     </>
   );

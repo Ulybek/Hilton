@@ -8,7 +8,7 @@ export default function Services() {
             <SectionHeading>Меню ресторана</SectionHeading>
             <div className='search-button-box'>
                 <div className='search-button'>
-                    <img src={`${import.meta.env.BASE_URL}images/search.png`} alt="" />
+                    <img src="Hilton/images/search.png" alt="" />
                     <input type="text" placeholder='Поиск' />
                 </div>
             </div>
